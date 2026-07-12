@@ -49,5 +49,32 @@
       }
     ],
     "createdAt": "2026-07-12T10:34:10.461Z"
+  },
+  {
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "diagnosisId": "local_1783860014523_rjgxeje1t",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi",
+        "timestamp": "2026-07-12T12:40:22.065Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Regarding your question about \"hi\" for Cellulitis, I recommend consulting with a dermatologist. I could not find specific entries in my local textbook for this question.",
+        "timestamp": "2026-07-12T12:40:22.084Z"
+      },
+      {
+        "role": "user",
+        "content": "what should i do for this",
+        "timestamp": "2026-07-12T12:40:42.258Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the dermatology handbook for Cellulitis:\n\nOXFORD MEDICAL PUBLICATIONS Oxford Handbook of  Medical  Dermatology Published and forthcoming Oxford Handbooks\n\nIMPORTANT: This information is for educational purposes only. Always consult a healthcare provider for proper diagnosis and treatment.",
+        "timestamp": "2026-07-12T12:40:42.279Z"
+      }
+    ],
+    "createdAt": "2026-07-12T12:40:22.065Z"
   }
 ]

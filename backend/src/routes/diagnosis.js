@@ -66,12 +66,14 @@ function runPythonPrediction(imageBuffer) {
   });
 }
 
+const ML_URL = process.env.ML_SERVICE_URL || 'http://localhost:5001';
+
 // Function to get prediction from Flask server
 async function getPredictionFromFlask(imageBuffer, filename) {
   const form = new FormData();
   form.append('image', imageBuffer, { filename: filename || 'image.jpg' });
   
-  const response = await axios.post('http://127.0.0.1:5001/predict', form, {
+  const response = await axios.post(`${ML_URL}/predict`, form, {
     headers: form.getHeaders(),
     timeout: 5000 // 5 seconds timeout
   });
@@ -86,13 +88,16 @@ async function getPredictionFromFlask(imageBuffer, filename) {
 // Unified prediction getter that prefers HTTP but falls back to spawn
 async function getPrediction(imageBuffer, filename) {
   try {
-    console.log('🔄 Attempting prediction via Python Flask server (http://localhost:5001/predict)...');
+    console.log(`🔄 Attempting prediction via Python Flask server (${ML_URL}/predict)...`);
     const result = await getPredictionFromFlask(imageBuffer, filename);
     console.log('✅ Flask server prediction succeeded');
     return result;
   } catch (err) {
     console.log('⚠️ Flask server failed or is not running, falling back to spawning process:', err.message);
     const result = await runPythonPrediction(imageBuffer);
+    if (result && result.error) {
+      return { error: result.error };
+    }
     return {
       prediction: result.prediction,
       confidence: result.confidence,

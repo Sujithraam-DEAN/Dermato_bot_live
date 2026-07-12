@@ -134,5 +134,59 @@
     "confidence": 0.9863262176513672,
     "imagePath": "image_1783858404151.jpg",
     "timestamp": "2026-07-12T12:13:24.152Z"
+  },
+  {
+    "_id": "local_1783859141566_h5nex0k93",
+    "userId": "user_3GMDWQFtyqO3tLv1P3W9ZoZGJsu",
+    "prediction": "Athlete's Foot",
+    "confidence": 0.9964687824249268,
+    "imagePath": "image_1783859141560.png",
+    "timestamp": "2026-07-12T12:25:41.567Z"
+  },
+  {
+    "_id": "local_1783860014523_rjgxeje1t",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Cellulitis",
+    "confidence": 0.9770641922950745,
+    "imagePath": "image_1783860014520.jpg",
+    "timestamp": "2026-07-12T12:40:14.523Z"
+  },
+  {
+    "_id": "local_1783865927879_vxl0dc8jb",
+    "userId": "user_3GMDWQFtyqO3tLv1P3W9ZoZGJsu",
+    "prediction": "Impetigo",
+    "confidence": 0.8360496759414673,
+    "imagePath": "image_1783865927851.jpg",
+    "timestamp": "2026-07-12T14:18:47.880Z"
+  },
+  {
+    "_id": "local_1783868108940_z7kpq822l",
+    "userId": "mock_user_default",
+    "imagePath": "image_1783868108842.png",
+    "timestamp": "2026-07-12T14:55:08.940Z"
+  },
+  {
+    "_id": "local_1783868214149_wlwdfz8je",
+    "userId": "mock_user_default",
+    "prediction": "Cutaneous Larva Migrans",
+    "confidence": 0.7080157399177551,
+    "imagePath": "image_1783868214118.png",
+    "timestamp": "2026-07-12T14:56:54.159Z"
+  },
+  {
+    "_id": "local_1783868239537_or61t886n",
+    "userId": "mock_user_default",
+    "prediction": "Cutaneous Larva Migrans",
+    "confidence": 0.7080157399177551,
+    "imagePath": "image_1783868239537.png",
+    "timestamp": "2026-07-12T14:57:19.537Z"
+  },
+  {
+    "_id": "local_1783868374006_oy3y8196v",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Cutaneous Larva Migrans",
+    "confidence": 0.9863262176513672,
+    "imagePath": "image_1783868374003.jpg",
+    "timestamp": "2026-07-12T14:59:34.006Z"
   }
 ]
