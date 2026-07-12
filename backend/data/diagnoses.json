@@ -1,0 +1,138 @@
+[
+  {
+    "_id": "local_1783851438692_mh8uvrs9v",
+    "userId": "test_user_antigravity",
+    "prediction": "Nail Fungus",
+    "confidence": 0.5536192655563354,
+    "imagePath": "image_1783851438691.jpg",
+    "timestamp": "2026-07-12T10:17:18.693Z"
+  },
+  {
+    "_id": "local_1783851484032_z0splkq4u",
+    "userId": "test_user_antigravity",
+    "prediction": "Nail Fungus",
+    "confidence": 0.5536192655563354,
+    "imagePath": "image_1783851484031.jpg",
+    "timestamp": "2026-07-12T10:18:04.032Z"
+  },
+  {
+    "_id": "local_1783851636845_r8l3mpiaa",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Ringworm",
+    "confidence": 0.6950352787971497,
+    "imagePath": "image_1783851636842.webp",
+    "timestamp": "2026-07-12T10:20:36.947Z"
+  },
+  {
+    "_id": "local_1783851674001_rdql9bfo3",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Shingles",
+    "confidence": 0.6350568532943726,
+    "imagePath": "image_1783851674000.jfif",
+    "timestamp": "2026-07-12T10:21:14.001Z"
+  },
+  {
+    "_id": "local_1783851737495_ceytke4ig",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Cutaneous Larva Migrans",
+    "confidence": 0.7977721691131592,
+    "imagePath": "image_1783851737494.jfif",
+    "timestamp": "2026-07-12T10:22:17.495Z"
+  },
+  {
+    "_id": "local_1783851777939_88dnm86uy",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Ringworm",
+    "confidence": 0.6950352787971497,
+    "imagePath": "image_1783851777937.webp",
+    "timestamp": "2026-07-12T10:22:57.939Z"
+  },
+  {
+    "_id": "local_1783852449780_m5pls9g6x",
+    "userId": "test_user_antigravity",
+    "prediction": "Nail Fungus",
+    "confidence": 0.5536195039749146,
+    "imagePath": "image_1783852449776.jpg",
+    "timestamp": "2026-07-12T10:34:09.781Z"
+  },
+  {
+    "_id": "local_1783852580693_jdqiwze93",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Ringworm",
+    "confidence": 0.6950350999832153,
+    "imagePath": "image_1783852580691.webp",
+    "timestamp": "2026-07-12T10:36:20.694Z"
+  },
+  {
+    "_id": "local_1783853550298_rgubgbbz4",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Cellulitis",
+    "confidence": 0.9770641922950745,
+    "imagePath": "image_1783853550282.jpg",
+    "timestamp": "2026-07-12T10:52:30.299Z"
+  },
+  {
+    "_id": "local_1783853636914_b89yydy8g",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Impetigo",
+    "confidence": 0.8360496759414673,
+    "imagePath": "image_1783853636911.jpg",
+    "timestamp": "2026-07-12T10:53:56.915Z"
+  },
+  {
+    "_id": "local_1783853694877_leqnn7h1y",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Athlete's Foot",
+    "confidence": 0.9964687824249268,
+    "imagePath": "image_1783853694874.png",
+    "timestamp": "2026-07-12T10:54:54.877Z"
+  },
+  {
+    "_id": "local_1783853770491_3k4x80dav",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Cutaneous Larva Migrans",
+    "confidence": 0.9863262176513672,
+    "imagePath": "image_1783853770490.jpg",
+    "timestamp": "2026-07-12T10:56:10.492Z"
+  },
+  {
+    "_id": "local_1783854780189_be9v2y3i1",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Cutaneous Larva Migrans",
+    "confidence": 0.9863262176513672,
+    "imagePath": "image_1783854780187.jpg",
+    "timestamp": "2026-07-12T11:13:00.189Z"
+  },
+  {
+    "_id": "local_1783856689863_z6yi6mg17",
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "prediction": "Impetigo",
+    "confidence": 0.8360496759414673,
+    "imagePath": "image_1783856689842.jpg",
+    "timestamp": "2026-07-12T11:44:49.864Z"
+  },
+  {
+    "_id": "local_1783858376060_he9jjs48t",
+    "userId": "user_3GMDWQFtyqO3tLv1P3W9ZoZGJsu",
+    "prediction": "Impetigo",
+    "confidence": 0.8360496759414673,
+    "imagePath": "image_1783858376043.jpg",
+    "timestamp": "2026-07-12T12:12:56.060Z"
+  },
+  {
+    "_id": "local_1783858391489_tpryrqkic",
+    "userId": "user_3GMDWQFtyqO3tLv1P3W9ZoZGJsu",
+    "prediction": "Ringworm",
+    "confidence": 0.6950350999832153,
+    "imagePath": "image_1783858391488.webp",
+    "timestamp": "2026-07-12T12:13:11.489Z"
+  },
+  {
+    "_id": "local_1783858404152_beb0qi4xr",
+    "userId": "user_3GMDWQFtyqO3tLv1P3W9ZoZGJsu",
+    "prediction": "Cutaneous Larva Migrans",
+    "confidence": 0.9863262176513672,
+    "imagePath": "image_1783858404151.jpg",
+    "timestamp": "2026-07-12T12:13:24.152Z"
+  }
+]

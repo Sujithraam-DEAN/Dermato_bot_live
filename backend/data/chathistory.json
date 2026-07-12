@@ -1,0 +1,53 @@
+[
+  {
+    "userId": "test_user_antigravity",
+    "diagnosisId": "local_1783851484032_z0splkq4u",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is this disease and what should I do?",
+        "timestamp": "2026-07-12T10:18:04.515Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the dermatology handbook for Nail Fungus:\n\nOXFORD MEDICAL PUBLICATIONS Oxford Handbook of  Medical  Dermatology Published and forthcoming Oxford Handbooks\n\nIMPORTANT: This information is for educational purposes only. Always consult a healthcare provider for proper diagnosis and treatment.",
+        "timestamp": "2026-07-12T10:18:04.575Z"
+      }
+    ],
+    "createdAt": "2026-07-12T10:18:04.515Z"
+  },
+  {
+    "userId": "user_3GOkpFeGHe4tUAsQqrAVg7JzC0D",
+    "diagnosisId": "local_1783851674001_rdql9bfo3",
+    "messages": [
+      {
+        "role": "user",
+        "content": "what is this disease",
+        "timestamp": "2026-07-12T10:21:38.082Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the dermatology handbook for Shingles:\n\nMedicine 2e Oxford Handbook of Infectious  Diseases and Microbiology  Oxford Handbook of Key Clinical  Evidence \n\nIMPORTANT: This information is for educational purposes only. Always consult a healthcare provider for proper diagnosis and treatment.",
+        "timestamp": "2026-07-12T10:21:38.127Z"
+      }
+    ],
+    "createdAt": "2026-07-12T10:21:38.082Z"
+  },
+  {
+    "userId": "test_user_antigravity",
+    "diagnosisId": "local_1783852449780_m5pls9g6x",
+    "messages": [
+      {
+        "role": "user",
+        "content": "What is this disease and what should I do?",
+        "timestamp": "2026-07-12T10:34:10.461Z"
+      },
+      {
+        "role": "assistant",
+        "content": "Based on the dermatology handbook for Nail Fungus:\n\nOXFORD MEDICAL PUBLICATIONS Oxford Handbook of  Medical  Dermatology Published and forthcoming Oxford Handbooks\n\nIMPORTANT: This information is for educational purposes only. Always consult a healthcare provider for proper diagnosis and treatment.",
+        "timestamp": "2026-07-12T10:34:10.515Z"
+      }
+    ],
+    "createdAt": "2026-07-12T10:34:10.461Z"
+  }
+]

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DermaLLaMa-GPT | AI Dermatology Consultation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/index-d7cfeadb.js"></script>
+    <link rel="stylesheet" href="/assets/index-658eee5b.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script>
+      // Load chatbot widget
+      (function() {
+        const script = document.createElement('script');
+        script.src = 'https://arivubot-seven.vercel.app/chatbot-widget.js';
+        script.async = true;
+        script.onload = function() {
+          console.log('Chatbot widget loaded successfully');
+        };
+        script.onerror = function() {
+          console.error('Failed to load chatbot widget');
+        };
+        document.body.appendChild(script);
+      })();
+    </script>
+  </body>
+</html>

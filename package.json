@@ -1,0 +1,19 @@
+{
+  "name": "dermallama-gpt",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:prod": "concurrently \"npm run start:ml\" \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:ml": "cd ml-service && (python3 app.py || python app.py || echo 'ML service skipped')",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run build && serve -s build -l 3000",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "serve": "^14.2.0"
+  }
+}
